@@ -11,9 +11,9 @@ public class forecastCurrencies {
         Currency usd = new Currency();
         Currency eur = new Currency();
         Currency lira = new Currency();
-        usd.getValuesFromCSV("D:\\JAVAPROKECTS\\forecastCurrencies\\src\\main\\resources\\USD_F01_02_2002_T01_02_2022.csv");
-        eur.getValuesFromCSV("D:\\JAVAPROKECTS\\forecastCurrencies\\src\\main\\resources\\EUR_F01_02_2002_T01_02_2022.csv");
-        lira.getValuesFromCSV("D:\\JAVAPROKECTS\\forecastCurrencies\\src\\main\\resources\\TRY_F01_02_2002_T01_02_2022.csv");
+        usd.getValuesFromCSV("src\\main\\resources\\USD_F01_02_2002_T01_02_2022.csv");
+        eur.getValuesFromCSV("src\\main\\resources\\EUR_F01_02_2002_T01_02_2022.csv");
+        lira.getValuesFromCSV("src\\main\\resources\\TRY_F01_02_2002_T01_02_2022.csv");
 
         System.out.println("Input 'START' to start forecasting");
 
